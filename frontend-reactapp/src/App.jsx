@@ -4,11 +4,9 @@ import Navbar from "./components/NavBar";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-      <NavBar />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Navbar/>
+    </BrowserRouter>
   );
 }
 
